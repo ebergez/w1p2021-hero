@@ -1,13 +1,15 @@
 class CountService {
   constructor() {
-    this.count = 0;
+    this.count = localStorage.getItem('count') 
+    ? localStorage.getItem('count')
+    : 0
   }
   increment() {
-    this.count++;
+    localStorage.setItem('count', this.count++);
   }
   value() {
-    return this.count;
+    return this.count
   }
 }
 
-module.exports = new CountService();
+module.exports = new CountService 

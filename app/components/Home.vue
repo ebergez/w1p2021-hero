@@ -1,26 +1,19 @@
 <template>
   <div class="big-header">
-    <h1>{{ message }}</h1>
+    <h1 class="gameTitle">{{ message }}</h1>
     <br />
-    <router-link class="button" to="/page">Go to Page</router-link>
-    <br />
-    <button class="button" @click="handleClick">Click me up</button>
+    <div class="buttons">
+    <router-link class="button" to="/game/1">Jouer</router-link> 
+    </div>
   </div>
 </template>
 
 <script>
-import countService from '../services/countService';
-
 export default {
   data() {
     return {
-      message: 'Hello Hetic'
+      message: "Emra's cave"
     };
-  },
-  methods: {
-    handleClick() {
-      countService.increment();
-    }
   }
 };
 </script>

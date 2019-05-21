@@ -12,11 +12,10 @@ textarea {
 }
 
 .big-header {
-  background-color: $hetic-green;
+  background-color: black;
   height: 100vh;
 
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
@@ -25,12 +24,61 @@ textarea {
 }
 
 .button {
-  color: $hetic-green;
+  width: 15vw;
+  text-align: center;
   text-decoration: none;
   background: white;
-  padding: 5px;
-  border-radius: 5px;
+  padding: 10px;
+  border-radius: 20px;
   display: inline-block;
   border: none;
-  cursor: pointer;
+  color: red;
 }
+
+
+/* animation entre pages
+
+.pane-enter-active,
+.pane-leave-active {
+  animation: fake 5s;
+
+  &::before{
+    content: '';
+    position: absolute;
+    background: black;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transform: translateX(100vw);
+    transition: transform 2.5s;
+  }
+}
+
+.pane-leave-to {
+  &::before {
+    transform: translateX(0)
+  }
+}
+
+.pane-enter {
+  &::before {
+    transform: translateX(0)
+  }
+}
+
+.pane-enter-to {
+  &::before {
+    transform: translateX(-100vw)
+  }
+}
+*/
+.gameTitle {
+  font-size: 100px;
+  margin-top: 20vh;
+}
+
+.buttons {
+  margin-top: 20vh;
+}
+

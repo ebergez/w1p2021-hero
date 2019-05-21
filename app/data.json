@@ -1,0 +1,116 @@
+{
+  "steps" : [
+    {
+      "id": 50,
+      "title": "Vous avez perdu",
+      "actions": [
+        {
+          "label": "Recommencer",
+          "to": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Choisissez un personnage",
+      "actions": [
+        {
+          "label": "Edward",
+          "to": 2
+        },
+        {
+          "label": "Bella",
+          "to": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Lore 1",
+      "actions": [
+        {
+          "label": "Continuer",
+          "to": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Lore 2",
+      "actions": [
+        {
+          "label": "Aller dans la grotte",
+          "to": 4
+        },
+        {
+          "label": "Continuer son chemin",
+          "to": 50
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Grotte 1",
+      "actions": [
+        {
+          "label": "Allumer la torche",
+          "to": 5
+        },
+        {
+          "label": "Ne pas allumer la torche",
+          "to": 6
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Vous vous cognez et entendez un bruit au loin",
+      "actions": [
+        {
+          "label": "Continuer votre chemin",
+          "to": 100
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Vous vous cognez encore une fois",
+      "actions": [
+        {
+          "label": "Continuer",
+          "to": 101
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "En continuant votre chemin vous arrivez devant une porte fermer",
+      "actions": [
+        {
+          "label": "Ouvrir la porte",
+          "to": 7
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Vous vous retrouvez face a face avec 2 joueurs de cartes inconnue",
+      "actions": [
+        {
+          "label": "Se battre",
+          "to": 50
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "En arrivant dans la salle vous remarquez une table sur laquelle son poser des cartes",
+      "actions": [
+        {
+          "label": "Ouvrir la porte",
+          "to": 7
+        }
+      ]
+    }
+  ]
+}
