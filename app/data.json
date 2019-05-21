@@ -83,12 +83,62 @@
       ]
     },
     {
+      "id": 101,
+      "title": "Encore",
+      "actions": [
+        {
+          "label": "Continuer",
+          "to": 102
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "title": "Décidément vous continuer de vous cogner",
+      "actions": [
+        {
+          "label": "Continuer",
+          "to": 103
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "title": "Encore",
+      "actions": [
+        {
+          "label": "Continuer",
+          "to": 104
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "title": "Vous vous cognez encore une fois",
+      "actions": [
+        {
+          "label": "Continuer",
+          "to": 8
+        }
+      ]
+    },
+    {
       "id": 5,
-      "title": "En continuant votre chemin vous arrivez devant une porte fermer",
+      "title": "En continuant votre chemin vous arrivez devant une porte fermée",
       "actions": [
         {
           "label": "Ouvrir la porte",
           "to": 7
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "En continuant votre chemin vous arrivez devant une porte fermée",
+      "actions": [
+        {
+          "label": "Ouvrir la porte",
+          "to": 9
         }
       ]
     },
@@ -99,16 +149,112 @@
         {
           "label": "Se battre",
           "to": 50
+        },
+        {
+          "label": "Demander son chemin",
+          "to": 50
+        },
+        {
+          "label": "Demander qui ils sont",
+          "to": 12
+        },
+        {
+          "label": "Demander ou vous etes",
+          "to": 13
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Je suis Bob et voici Billy",
+      "actions": [
+        {
+          "label": "Demander son chemin",
+          "to": 50
+        },
+        {
+          "label": "Demander ou vous etes",
+          "to": 14
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Vous etes dans la grotte d'emra et elle renferme un trésor et d'ailleurs vous allez nous aider avec une énigme",
+      "actions": [
+        {
+          "label": "Les suivres",
+          "to": 15
+        },
+        {
+          "label": "Demander qui ils sont",
+          "to": 16
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Vous etes dans la grotte d'emra et elle renferme un trésor et d'ailleurs vous allez nous aider avec une énigme",
+      "actions": [
+        {
+          "label": "Les suivre",
+          "to": 15
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Je suis Bob et lui c'est Billy, bon vous venez ?",
+      "actions": [
+        {
+          "label": "Les suivre",
+          "to": 15
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Vous arrivez face a l'énigme",
+      "actions": [
+        {
+          "label": "A",
+          "to": 15
+        },
+        {
+          "label": "B",
+          "to": 15
+        },
+        {
+          "label": "C",
+          "to": 15
+        },
+        {
+          "label": "D",
+          "to": 15
         }
       ]
     },
     {
       "id": 9,
-      "title": "En arrivant dans la salle vous remarquez une table sur laquelle son poser des cartes",
+      "title": "En arrivant dans la salle vous remarquez une table sur laquelle son poser des cartes, quand soudain vous entendez un boulet gigantesque qui se rapproche de vous, que faites vous ?",
       "actions": [
         {
-          "label": "Ouvrir la porte",
-          "to": 7
+          "label": "Se mettre a gauche",
+          "to": 50
+        },
+        {
+          "label": "Se mettre a droite ",
+          "to": 10
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Un gigantesque boulet passe juste sur votre gauche ! Les gens qui l'ont envoyer, croyant vous avoir eliminer s'en vont",
+      "actions": [
+        {
+          "label": "Les suivre",
+          "to": 11
         }
       ]
     }
