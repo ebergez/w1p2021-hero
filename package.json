@@ -5,8 +5,9 @@
     "node": ">=8.0.0"
   },
   "scripts": {
-    "dev": "parcel app/index.html",
-    "build": "parcel build app/index.html && cp _redirects dist/",
+    "copy": "rmdir /S /Q dist && copyfiles --flat app/assets/images/* dist/assets/images",
+    "dev": "npm run copy && parcel app/index.html",
+    "build": "npm run copy && parcel build app/index.html && cp _redirects dist/",
     "lint": "esw . --ext .js,.vue --watch --color"
   },
   "repository": {
@@ -28,6 +29,7 @@
     "vue": "./node_modules/vue/dist/vue.common.js"
   },
   "dependencies": {
+    "copyfiles": "^2.1.0",
     "services": "0.0.3",
     "vue": "^2.6.10",
     "vue-hot-reload-api": "^2.3.3",

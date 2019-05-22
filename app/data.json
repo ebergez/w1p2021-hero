@@ -3,7 +3,7 @@
     {
       "id": 50,
       "title": "Vous avez perdu",
-      "background-image":"",
+      "backgroundImage":"",
       "actions": [
         {
           "label": "Recommencer",
@@ -38,6 +38,7 @@
     {
       "id": 3,
       "title": "Lore 2",
+      "backgroundImage":"../assets/images/minecraft0",
       "actions": [
         {
           "label": "Aller dans la grotte",
@@ -126,6 +127,7 @@
     {
       "id": 5,
       "title": "En continuant votre chemin vous arrivez devant une porte fermée",
+      "backgroundImage":"../assets/images/minecraft5",
       "actions": [
         {
           "label": "Ouvrir la porte",
@@ -136,6 +138,7 @@
     {
       "id": 8,
       "title": "En continuant votre chemin vous arrivez devant une porte fermée",
+      "backgroundImage":"../assets/images/minecraft5",
       "actions": [
         {
           "label": "Ouvrir la porte",
@@ -146,6 +149,7 @@
     {
       "id": 7,
       "title": "Vous vous retrouvez face a face avec 2 joueurs de cartes inconnue",
+      "backgroundImage":"../assets/images/minecraft3",
       "actions": [
         {
           "label": "Se battre",
@@ -168,6 +172,7 @@
     {
       "id": 12,
       "title": "Je suis Bob et voici Billy",
+      "backgroundImage":"../assets/images/minecraft3",
       "actions": [
         {
           "label": "Demander son chemin",
@@ -181,10 +186,11 @@
     },
     {
       "id": 13,
-      "title": "Vous etes dans la grotte d'emra et elle renferme un trésor et d'ailleurs vous allez nous aider avec une énigme",
+      "title": "Vous etes dans la grotte d'emra et elle renferme un trésor",
+      "backgroundImage":"../assets/images/minecraft3",
       "actions": [
         {
-          "label": "Les suivres",
+          "label": "Demander a les suivre",
           "to": 15
         },
         {
@@ -195,20 +201,22 @@
     },
     {
       "id": 14,
-      "title": "Vous etes dans la grotte d'emra et elle renferme un trésor et d'ailleurs vous allez nous aider avec une énigme",
+      "title": "Vous etes dans la grotte d'emra et elle renferme un trésor",
+      "backgroundImage":"../assets/images/minecraft3",
       "actions": [
         {
-          "label": "Les suivre",
+          "label": "Demander a les suivre",
           "to": 15
         }
       ]
     },
     {
       "id": 16,
-      "title": "Je suis Bob et lui c'est Billy, bon vous venez ?",
+      "title": "Je suis Bob et lui c'est Billy",
+      "backgroundImage":"../assets/images/minecraft3",
       "actions": [
         {
-          "label": "Les suivre",
+          "label": "Demander a les suivre",
           "to": 15
         }
       ]
@@ -216,6 +224,7 @@
     {
       "id": 15,
       "title": "Vous arrivez face a l'énigme",
+      "backgroundImage":"../assets/images/minecraft4",
       "actions": [
         {
           "label": "A",
@@ -255,7 +264,7 @@
       "actions": [
         {
           "label": "Les suivre",
-          "to": 11
+          "to": 7
         }
       ]
     }

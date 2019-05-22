@@ -1,6 +1,7 @@
 <template>
 <div>
-  
+  <link rel="preload" v-bind:href="step.backgroundImage" as="image">
+  <img v-bind:src="step.backgroundImage" alt="" class="backgroundImage">
   <section class="choicesBox">
   <h1 class="screenText">{{ step.title }}</h1>
   <div class="choicesList">
@@ -8,9 +9,10 @@
   :to="action.to.toString()" class="choices">
     {{ action.label }}
     </div>
+  </router-link>
   </section>
     
-  </router-link>
+  
 </div>
 </template>
 
@@ -20,11 +22,12 @@
   export default {
     data: function () {
       return {
-        step: this.getStep()
+        step: this.getStep(),
       }
     },
     mounted() {
       console.log('coucou');
+      console.log( this.getStep());
     },
     methods: {
       getStep() {
