@@ -3,10 +3,11 @@
     {
       "id": 50,
       "title": "Vous avez perdu",
+      "background-image":"",
       "actions": [
         {
           "label": "Recommencer",
-          "to": 1
+          "to": 2
         }
       ]
     },

@@ -1,12 +1,15 @@
 <template>
 <div>
-  <h1>{{ step.title }}</h1>
-
+  
+  <section class="choicesBox">
+  <h1 class="screenText">{{ step.title }}</h1>
+  <div class="choicesList">
   <router-link v-for="action in step.actions"
-  :to="action.to.toString()">
+  :to="action.to.toString()" class="choices">
     {{ action.label }}
-
-    <div></div>
+    </div>
+  </section>
+    
   </router-link>
 </div>
 </template>

@@ -82,3 +82,31 @@ textarea {
   margin-top: 20vh;
 }
 
+.choicesBox {
+  margin-left: 20vw;
+  width: 60vw;
+  height: 20vh;
+  background-color: rgb(219, 218, 218);
+  margin-top: 77vh;
+}
+
+.choicesList {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5vh;
+  height: 45%;
+}
+
+.choices {
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 23px;
+  background-color: #444141;
+}
+
+.screenText {
+  text-align: center;
+}
+
