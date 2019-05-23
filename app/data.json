@@ -12,6 +12,16 @@
       ]
     },
     {
+      "id": 777,
+      "title": "Vous avez gagné(e)",
+      "actions": [
+        {
+          "label": "Recommencer",
+          "to": 2
+        }
+      ]
+    },
+    {
       "id": 1,
       "title": "Choisissez un personnage",
       "actions": [
@@ -53,6 +63,7 @@
     {
       "id": 4,
       "title": "Grotte 1",
+      "backgroundImage":"../assets/images/minecraft2.png",
       "actions": [
         {
           "label": "Allumer la torche",
@@ -190,8 +201,8 @@
       "backgroundImage":"../assets/images/minecraft3.jpg",
       "actions": [
         {
-          "label": "Demander a les suivre",
-          "to": 15
+          "label": "Demander son chemin",
+          "to": 50
         },
         {
           "label": "Demander qui ils sont",
@@ -203,10 +214,11 @@
       "id": 14,
       "title": "Vous etes dans la grotte d'emra et elle renferme un trésor",
       "backgroundImage":"../assets/images/minecraft3.jpg",
+      "good": "true",
       "actions": [
         {
           "label": "Demander a les suivre",
-          "to": 15
+          "to": 24
         }
       ]
     },
@@ -214,10 +226,11 @@
       "id": 16,
       "title": "Je suis Bob et lui c'est Billy",
       "backgroundImage":"../assets/images/minecraft3.jpg",
+      "good": "false",
       "actions": [
         {
           "label": "Demander a les suivre",
-          "to": 15
+          "to": 25
         }
       ]
     },
@@ -227,26 +240,14 @@
       "backgroundImage":"../assets/images/minecraft4.jpg",
       "actions": [
         {
-          "label": "A",
-          "to": 15
-        },
-        {
-          "label": "B",
-          "to": 15
-        },
-        {
-          "label": "C",
-          "to": 15
-        },
-        {
-          "label": "D",
-          "to": 15
+          "label": "Regarder de plus pres",
+          "to": 17
         }
       ]
     },
     {
       "id": 9,
-      "title": "En arrivant dans la salle vous remarquez une table sur laquelle son poser des cartes, quand soudain vous entendez un boulet gigantesque qui se rapproche de vous, que faites vous ?",
+      "title": "En arrivant dans la salle vous remarquez une table sur laquelle est poser un cendrier avec une cigarette fumant encore, quand soudain vous entendez un boulet gigantesque qui se rapproche de vous, que faites vous ?",
       "actions": [
         {
           "label": "Se mettre a gauche",
@@ -260,13 +261,226 @@
     },
     {
       "id": 10,
-      "title": "Un gigantesque boulet passe juste sur votre gauche ! Les gens qui l'ont envoyer, croyant vous avoir eliminer s'en vont",
+      "title": "Un gigantesque boulet passe juste sur votre gauche ! Les gens qui l'ont envoyer, croyant vous avoir eliminer s'en vont, vous entendez un bruit suspect et décider d'aller voir",
       "actions": [
         {
           "label": "Les suivre",
-          "to": 7
+          "to": 19
         }
       ]
-    }
+    },
+    {
+      "id": 17,
+      "title":"Vous vous rapprochez de l'énigme",
+      "backgroundImage":"../assets/images/minecraft6.jpg",
+      "actions":[
+        {
+          "label": "A",
+          "to": 50
+        },
+        {
+          "label": "B",
+          "to": 50
+        },
+        {
+          "label": "C",
+          "to": 50
+        },
+        {
+          "label": "D",
+          "to": 18
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title":"Vous avez résolu l'énigme, la porte s'ouvre et vous apercevez une gemme poser sur un socle",
+      "actions":[
+        {
+          "label":"Demander a la prendre",
+          "to": "776"
+        },
+        {
+          "label":"Laisser vos compagnons y aller",
+          "to": "50"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title":"Vous vous retrouvez face a un homme et un cadavre, vous en déduisez que le bruit suspect n'etait autre que le be piege qu'avait declencher la personne gisant au sol",
+      "actions":[
+        {
+          "label":"Se battre",
+          "to": "50"
+        },
+        {
+          "label":"Parler",
+          "to": "20"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Quoi ? Que voulez vous ?",
+      "actions": [
+        {
+          "label": "Se battre",
+          "to": 50
+        },
+        {
+          "label": "Demander son chemin",
+          "to": 50
+        },
+        {
+          "label": "Demander qui ils sont",
+          "to": 21
+        },
+        {
+          "label": "Demander ou vous etes",
+          "to": 22
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Moi je suis Billy et lui c'est... c'etait Bob",
+      "actions": [
+        {
+          "label": "Demander son chemin",
+          "to": 50
+        },
+        {
+          "label": "Demander ou vous etes",
+          "to": 23
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Vous etes dans la grotte d'emra et elle renferme un trésor",
+      "actions": [
+        {
+          "label": "Demander son chemin",
+          "to": 50
+        },
+        {
+          "label": "Demander qui ils sont",
+          "to": 24
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Vous etes dans la grotte d'emra et elle renferme un trésor",
+      "actions": [
+        {
+          "label": "Demander a l'accompagner",
+          "to": 50
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Vous arrivez face a l'énigme",
+      "backgroundImage":"../assets/images/minecraft4.jpg",
+      "good":"true",
+      "actions": [
+        {
+          "label": "Regarder de plus pres",
+          "to": 26
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Vous arrivez face a l'énigme",
+      "backgroundImage":"../assets/images/minecraft4.jpg",
+      "good":"false",
+      "actions": [
+        {
+          "label": "Regarder de plus pres",
+          "to": 27
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title":"Vous vous rapprochez de l'énigme",
+      "backgroundImage":"../assets/images/minecraft6.jpg",
+      "good":"true",
+      "actions":[
+        {
+          "label": "A",
+          "to": 50
+        },
+        {
+          "label": "B",
+          "to": 50
+        },
+        {
+          "label": "C",
+          "to": 50
+        },
+        {
+          "label": "D",
+          "to": 28
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title":"Vous vous rapprochez de l'énigme",
+      "backgroundImage":"../assets/images/minecraft6.jpg",
+      "good":"false",
+      "actions":[
+        {
+          "label": "A",
+          "to": 50
+        },
+        {
+          "label": "B",
+          "to": 50
+        },
+        {
+          "label": "C",
+          "to": 50
+        },
+        {
+          "label": "D",
+          "to": 29
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title":"Vous avez résolu l'énigme, la porte s'ouvre et vous apercevez une gemme poser sur un socle",
+      "good":"true",
+      "actions":[
+        {
+          "label":"Demander a la prendre",
+          "to": "777"
+        },
+        {
+          "label":"Laisser vos compagnons y aller",
+          "to": "50"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title":"Vous avez résolu l'énigme, la porte s'ouvre et vous apercevez une gemme poser sur un socle",
+      "good":"false",
+      "actions":[
+        {
+          "label":"Demander a la prendre",
+          "to": "50"
+        },
+        {
+          "label":"Laisser vos compagnons y aller",
+          "to": "50"
+        }
+      ]
+    },
   ]
 }

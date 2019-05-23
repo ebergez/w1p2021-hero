@@ -5,7 +5,7 @@
   <h1 class="screenText">{{ step.title }}</h1>
   <div class="choicesList">
   <router-link v-for="action in step.actions"
-  :to="action.to.toString()" class="choices">
+  :to="action.to.toString()" @click="handleClick" class="choices">
     {{ action.label }}
     </div>
   </router-link>
@@ -21,12 +21,13 @@
   export default {
     data: function () {
       return {
-        step: this.getStep(),
+        step: this.getStep()
       }
     },
     mounted() {
       console.log('coucou');
       console.log( this.getStep());
+      
     },
     methods: {
       getStep() {
