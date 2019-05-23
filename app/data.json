@@ -38,7 +38,7 @@
     {
       "id": 3,
       "title": "Lore 2",
-      "backgroundImage":"../assets/images/minecraft0",
+      "backgroundImage":"../assets/images/minecraft0.png",
       "actions": [
         {
           "label": "Aller dans la grotte",
@@ -127,7 +127,7 @@
     {
       "id": 5,
       "title": "En continuant votre chemin vous arrivez devant une porte fermée",
-      "backgroundImage":"../assets/images/minecraft5",
+      "backgroundImage":"../assets/images/minecraft5.jpg",
       "actions": [
         {
           "label": "Ouvrir la porte",
@@ -138,7 +138,7 @@
     {
       "id": 8,
       "title": "En continuant votre chemin vous arrivez devant une porte fermée",
-      "backgroundImage":"../assets/images/minecraft5",
+      "backgroundImage":"../assets/images/minecraft5.jpg",
       "actions": [
         {
           "label": "Ouvrir la porte",
@@ -149,7 +149,7 @@
     {
       "id": 7,
       "title": "Vous vous retrouvez face a face avec 2 joueurs de cartes inconnue",
-      "backgroundImage":"../assets/images/minecraft3",
+      "backgroundImage":"../assets/images/minecraft3.jpg",
       "actions": [
         {
           "label": "Se battre",
@@ -172,7 +172,7 @@
     {
       "id": 12,
       "title": "Je suis Bob et voici Billy",
-      "backgroundImage":"../assets/images/minecraft3",
+      "backgroundImage":"../assets/images/minecraft3.jpg",
       "actions": [
         {
           "label": "Demander son chemin",
@@ -187,7 +187,7 @@
     {
       "id": 13,
       "title": "Vous etes dans la grotte d'emra et elle renferme un trésor",
-      "backgroundImage":"../assets/images/minecraft3",
+      "backgroundImage":"../assets/images/minecraft3.jpg",
       "actions": [
         {
           "label": "Demander a les suivre",
@@ -202,7 +202,7 @@
     {
       "id": 14,
       "title": "Vous etes dans la grotte d'emra et elle renferme un trésor",
-      "backgroundImage":"../assets/images/minecraft3",
+      "backgroundImage":"../assets/images/minecraft3.jpg",
       "actions": [
         {
           "label": "Demander a les suivre",
@@ -213,7 +213,7 @@
     {
       "id": 16,
       "title": "Je suis Bob et lui c'est Billy",
-      "backgroundImage":"../assets/images/minecraft3",
+      "backgroundImage":"../assets/images/minecraft3.jpg",
       "actions": [
         {
           "label": "Demander a les suivre",
@@ -224,7 +224,7 @@
     {
       "id": 15,
       "title": "Vous arrivez face a l'énigme",
-      "backgroundImage":"../assets/images/minecraft4",
+      "backgroundImage":"../assets/images/minecraft4.jpg",
       "actions": [
         {
           "label": "A",

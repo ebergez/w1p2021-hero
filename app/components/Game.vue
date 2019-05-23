@@ -1,6 +1,5 @@
 <template>
 <div>
-  <link rel="preload" v-bind:href="step.backgroundImage" as="image">
   <img v-bind:src="step.backgroundImage" alt="" class="backgroundImage">
   <section class="choicesBox">
   <h1 class="screenText">{{ step.title }}</h1>
