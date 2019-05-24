@@ -1,11 +1,11 @@
-# Le site dont vous êtes le héros
+﻿# Le site dont vous êtes le héros
 
 URL du site : http://votre-url-ici.com
 
 ### Groupe
 
-- Prénom & Nom
-- Prénom & Nom
+- Emile Bergez
+- Rayan Adamczak
 
 ## Prologue
 

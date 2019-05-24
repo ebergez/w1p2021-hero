@@ -37,7 +37,7 @@
     },
     {
       "id": 2,
-      "title": "Lore 1",
+      "title": "Lors d'une promenade non loin de votre village, vous apercevez pour la première fois ce qu'il semble être une grotte. Il n'y a aucune construction humaine et le lieu semble désert.",
       "actions": [
         {
           "label": "Continuer",
@@ -47,11 +47,11 @@
     },
     {
       "id": 3,
-      "title": "Lore 2",
+      "title": "Voulez-vous entrer dans ce lieu qui paraît encore vierge ?",
       "backgroundImage":"../assets/images/minecraft0.png",
       "actions": [
         {
-          "label": "Aller dans la grotte",
+          "label": "Entrer dans la grotte",
           "to": 4
         },
         {
@@ -62,7 +62,7 @@
     },
     {
       "id": 4,
-      "title": "Grotte 1",
+      "title": "L'endroit est très sombre. Il est difficile de voir à quelques mètres devant soit. Vous avez évidemment votre torche de poche sur vous, qu'en faites-vous ?",
       "backgroundImage":"../assets/images/minecraft2.png",
       "actions": [
         {
@@ -77,7 +77,7 @@
     },
     {
       "id": 6,
-      "title": "Vous vous cognez et entendez un bruit au loin",
+      "title": "Vous vous cognez et entendez un bruit au loin.",
       "actions": [
         {
           "label": "Continuer votre chemin",
@@ -87,7 +87,7 @@
     },
     {
       "id": 100,
-      "title": "Vous vous cognez encore une fois",
+      "title": "Vous vous cognez encore une fois.",
       "actions": [
         {
           "label": "Continuer",
@@ -97,7 +97,7 @@
     },
     {
       "id": 101,
-      "title": "Encore",
+      "title": "Encore.",
       "actions": [
         {
           "label": "Continuer",
@@ -107,7 +107,7 @@
     },
     {
       "id": 102,
-      "title": "Décidément vous continuer de vous cogner",
+      "title": "Décidément vous aimez ça on dirait.",
       "actions": [
         {
           "label": "Continuer",
@@ -117,7 +117,7 @@
     },
     {
       "id": 103,
-      "title": "Encore",
+      "title": "Et Encore. Vous entendez à nouveau des bruits et essayez de vous en approcher.",
       "actions": [
         {
           "label": "Continuer",
@@ -127,7 +127,7 @@
     },
     {
       "id": 104,
-      "title": "Vous vous cognez encore une fois",
+      "title": "...",
       "actions": [
         {
           "label": "Continuer",
@@ -137,7 +137,7 @@
     },
     {
       "id": 5,
-      "title": "En continuant votre chemin vous arrivez devant une porte fermée",
+      "title": "En continuant votre chemin vous arrivez devant une porte fermée.",
       "backgroundImage":"../assets/images/minecraft5.jpg",
       "actions": [
         {
@@ -148,7 +148,7 @@
     },
     {
       "id": 8,
-      "title": "En continuant votre chemin vous arrivez devant une porte fermée",
+      "title": "Après moults bosses, vous trouvez ce qu'il semble être une porte fermée.",
       "backgroundImage":"../assets/images/minecraft5.jpg",
       "actions": [
         {
@@ -159,7 +159,7 @@
     },
     {
       "id": 7,
-      "title": "Vous vous retrouvez face a face avec 2 joueurs de cartes inconnue",
+      "title": "Vous arrivez derrière deux joueurs de cartes.",
       "backgroundImage":"../assets/images/minecraft3.jpg",
       "actions": [
         {
@@ -171,11 +171,11 @@
           "to": 50
         },
         {
-          "label": "Demander qui ils sont",
+          "label": "Demander qui sont-ils",
           "to": 12
         },
         {
-          "label": "Demander ou vous etes",
+          "label": "Demander où nous sommes",
           "to": 13
         }
       ]
@@ -190,14 +190,14 @@
           "to": 50
         },
         {
-          "label": "Demander ou vous etes",
+          "label": "Demander où nous sommes",
           "to": 14
         }
       ]
     },
     {
       "id": 13,
-      "title": "Vous etes dans la grotte d'emra et elle renferme un trésor",
+      "title": "Vous êtes dans la grotte d'Emra et elle renferme un trésor.",
       "backgroundImage":"../assets/images/minecraft3.jpg",
       "actions": [
         {
@@ -205,49 +205,49 @@
           "to": 50
         },
         {
-          "label": "Demander qui ils sont",
+          "label": "Demander qui sont-ils",
           "to": 16
         }
       ]
     },
     {
       "id": 14,
-      "title": "Vous etes dans la grotte d'emra et elle renferme un trésor",
+      "title": "Vous êtes dans la grotte d'Emra et elle renferme un trésor.",
       "backgroundImage":"../assets/images/minecraft3.jpg",
       "good": "true",
       "actions": [
         {
-          "label": "Demander a les suivre",
+          "label": "Demander à les suivre",
           "to": 24
         }
       ]
     },
     {
       "id": 16,
-      "title": "Je suis Bob et lui c'est Billy",
+      "title": "Je suis Bob et lui c'est Billy. ",
       "backgroundImage":"../assets/images/minecraft3.jpg",
       "good": "false",
       "actions": [
         {
-          "label": "Demander a les suivre",
+          "label": "Demander à les suivre",
           "to": 25
         }
       ]
     },
     {
       "id": 15,
-      "title": "Vous arrivez face a l'énigme",
+      "title": "Vous arrivez face une porte scellée par une énigme.",
       "backgroundImage":"../assets/images/minecraft4.jpg",
       "actions": [
         {
-          "label": "Regarder de plus pres",
+          "label": "Regarder de plus près",
           "to": 17
         }
       ]
     },
     {
       "id": 9,
-      "title": "En arrivant dans la salle vous remarquez une table sur laquelle est poser un cendrier avec une cigarette fumant encore, quand soudain vous entendez un boulet gigantesque qui se rapproche de vous, que faites vous ?",
+      "title": "En arrivant dans la salle vous remarquez une table sur laquelle sont posées quelques cartes, quand soudain vous entendez un boulet gigantesque qui se rapproche de vous, que faites vous ?",
       "actions": [
         {
           "label": "Se mettre a gauche",
@@ -261,7 +261,7 @@
     },
     {
       "id": 10,
-      "title": "Un gigantesque boulet passe juste sur votre gauche ! Les gens qui l'ont envoyer, croyant vous avoir eliminer s'en vont, vous entendez un bruit suspect et décider d'aller voir",
+      "title": "Vous avez réussi à esquiver le piège ! Des bruits de pas se font entendre au loin.",
       "actions": [
         {
           "label": "Les suivre",
@@ -294,7 +294,7 @@
     },
     {
       "id": 18,
-      "title":"Vous avez résolu l'énigme, la porte s'ouvre et vous apercevez une gemme poser sur un socle",
+      "title":"Vous avez résolu l'énigme, la porte s'ouvre et vous apercevez une gemme posée sur un socle",
       "actions":[
         {
           "label":"Demander a la prendre",
@@ -308,7 +308,7 @@
     },
     {
       "id": 19,
-      "title":"Vous vous retrouvez face a un homme et un cadavre, vous en déduisez que le bruit suspect n'etait autre que le be piege qu'avait declencher la personne gisant au sol",
+      "title":"Vous vous retrouvez face à un homme et un cadavre criblé de flèches, vous en déduisez que le bruit suspect n'était autre que le piège qu'avait declenché la personne gisante au sol.",
       "actions":[
         {
           "label":"Se battre",
@@ -333,11 +333,11 @@
           "to": 50
         },
         {
-          "label": "Demander qui ils sont",
+          "label": "Demander qui sont-ils",
           "to": 21
         },
         {
-          "label": "Demander ou vous etes",
+          "label": "Demander où nous sommes",
           "to": 22
         }
       ]
@@ -351,14 +351,14 @@
           "to": 50
         },
         {
-          "label": "Demander ou vous etes",
+          "label": "Demander où nous sommes",
           "to": 23
         }
       ]
     },
     {
       "id": 22,
-      "title": "Vous etes dans la grotte d'emra et elle renferme un trésor",
+      "title": "Vous êtes dans la grotte d'Emra et elle renferme un trésor",
       "actions": [
         {
           "label": "Demander son chemin",
@@ -372,41 +372,41 @@
     },
     {
       "id": 23,
-      "title": "Vous etes dans la grotte d'emra et elle renferme un trésor",
+      "title": "Vous êtes dans la grotte d'Emra et elle renferme un trésor.",
       "actions": [
         {
-          "label": "Demander a l'accompagner",
+          "label": "Proposer de l'accompagner",
           "to": 50
         }
       ]
     },
     {
       "id": 24,
-      "title": "Vous arrivez face a l'énigme",
+      "title": "Vous arrivez face une porte scellée par une énigme.",
       "backgroundImage":"../assets/images/minecraft4.jpg",
       "good":"true",
       "actions": [
         {
-          "label": "Regarder de plus pres",
+          "label": "Regarder de plus près",
           "to": 26
         }
       ]
     },
     {
       "id": 25,
-      "title": "Vous arrivez face a l'énigme",
+      "title": "Vous arrivez face une porte scellée par une énigme.",
       "backgroundImage":"../assets/images/minecraft4.jpg",
       "good":"false",
       "actions": [
         {
-          "label": "Regarder de plus pres",
+          "label": "Regarder de plus près",
           "to": 27
         }
       ]
     },
     {
       "id": 26,
-      "title":"Vous vous rapprochez de l'énigme",
+      "title":"Vous arrivez face une porte scellée par une énigme.",
       "backgroundImage":"../assets/images/minecraft6.jpg",
       "good":"true",
       "actions":[
@@ -481,6 +481,6 @@
           "to": "50"
         }
       ]
-    },
+    }
   ]
 }
