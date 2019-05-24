@@ -5,7 +5,7 @@
     "node": ">=8.0.0"
   },
   "scripts": {
-    "copy": "rmdir /S /Q dist && copyfiles --flat app/assets/images/* dist/assets/images && copyfiles --flat app/assets/sound/* dist/assets/sound",
+    "copy": "rmdir /S /Q dist && copyfiles --flat app/assets/images/* dist/assets/images",
     "dev": "npm run copy && parcel app/index.html",
     "build": "npm run copy && parcel build app/index.html && cp _redirects dist/",
     "lint": "esw . --ext .js,.vue --watch --color"
