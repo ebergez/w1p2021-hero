@@ -91,28 +91,31 @@ html {
   width: 60vw;
   height: 20vh;
   background-color: rgb(219, 218, 218);
+  border-radius: 30px;
   margin-top: 77vh;
 }
 
 .choicesList {
   display: flex;
-  justify-content: space-around;
-  margin-top: 5vh;
+  justify-content: space-evenly;
+  margin-top: 4vh;
   height: 45%;
 }
 
 .choices {
-  font-size: 12px;
+  font-size: 15px;
   text-align: center;
   text-decoration: none;
   color: white;
   padding: 23px;
-  background-color: #444141;
+  border: black solid;
+  background-color: #2a2929;
 }
 
 .screenText {
   text-align: center;
   width: 100%;
+  font-size: 20px;
 }
 
 .backgroundImage {
@@ -122,5 +125,10 @@ html {
   width: 100vw;
   height: 100vh;
   object-fit: fill; 
+}
+
+.choices:hover {
+  color: green;
+  border: green solid;
 }
 
