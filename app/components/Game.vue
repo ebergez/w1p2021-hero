@@ -1,5 +1,8 @@
 <template>
 <div>
+ <!-- <audio autoplay> 
+    <source v-bind:src="../assets/sound/oof.mp3">
+  </audio>-->
   <img v-bind:src="step.backgroundImage" alt="" class="backgroundImage">
   <section class="choicesBox">
   <h1 class="screenText">{{ step.title }}</h1>

@@ -2,8 +2,85 @@
   "steps" : [
     {
       "id": 50,
-      "title": "Vous avez perdu",
-      "backgroundImage":"",
+      "title": "Il faut au moins commencer l'aventure - Vous avez perdu",
+      "sound": "../assets/sound/oof.mp3",
+      "actions": [
+        {
+          "label": "Recommencer",
+          "to": 2
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Le boulet vous applatit - Vous avez perdu",
+      "sound": "../assets/sound/oof.mp3",
+      "actions": [
+        {
+          "label": "Recommencer",
+          "to": 2
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Vous ne savez pas vous battre j'ai oublié de vous le dire - Vous avez perdu",
+      "sound": "../assets/sound/oof.mp3",
+      "actions": [
+        {
+          "label": "Recommencer",
+          "to": 2
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Ne vous jugeant pas assez digne de confiance vous vous faites trahir - Vous avez perdu",
+      "sound": "../assets/sound/oof.mp3",
+      "actions": [
+        {
+          "label": "Recommencer",
+          "to": 2
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Cette énigme est enfantine - Vous avez perdu",
+      "sound": "../assets/sound/oof.mp3",
+      "actions": [
+        {
+          "label": "Recommencer",
+          "to": 2
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Il refuse de vous laissez avoir le trésor car Bob voulez qu'il l'ait - Vous avez perdu",
+      "sound": "../assets/sound/oof.mp3",
+      "actions": [
+        {
+          "label": "Recommencer",
+          "to": 2
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Oh oui c'est par la - Vous avez perdu",
+      "sound": "../assets/sound/oof.mp3",
+      "actions": [
+        {
+          "label": "Recommencer",
+          "to": 2
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Vous avez décider de ne pas prendre la pierre, c'est tres gentil mais - Vous avez perdu",
+      "sound": "../assets/sound/oof.mp3",
       "actions": [
         {
           "label": "Recommencer",
@@ -13,7 +90,7 @@
     },
     {
       "id": 777,
-      "title": "Vous avez gagné(e)",
+      "title": "Ils vous laissent récupérer la pierre - Vous avez gagné(e)",
       "actions": [
         {
           "label": "Recommencer",
@@ -38,6 +115,7 @@
     {
       "id": 2,
       "title": "Lors d'une promenade non loin de votre village, vous apercevez pour la première fois ce qu'il semble être une grotte. Il n'y a aucune construction humaine et le lieu semble désert.",
+      "backgroundImage":"../assets/images/minecraft0.png",      
       "actions": [
         {
           "label": "Continuer",
@@ -48,7 +126,7 @@
     {
       "id": 3,
       "title": "Voulez-vous entrer dans ce lieu qui paraît encore vierge ?",
-      "backgroundImage":"../assets/images/minecraft0.png",
+      "backgroundImage":"../assets/images/minecraft2.png",
       "actions": [
         {
           "label": "Entrer dans la grotte",
@@ -160,15 +238,15 @@
     {
       "id": 7,
       "title": "Vous arrivez derrière deux joueurs de cartes.",
-      "backgroundImage":"../assets/images/minecraft3.jpg",
+      "backgroundImage":"../assets/images/minecraft1.jpg",
       "actions": [
         {
           "label": "Se battre",
-          "to": 50
+          "to": 52
         },
         {
           "label": "Demander son chemin",
-          "to": 50
+          "to": 56
         },
         {
           "label": "Demander qui sont-ils",
@@ -183,11 +261,11 @@
     {
       "id": 12,
       "title": "Je suis Bob et voici Billy",
-      "backgroundImage":"../assets/images/minecraft3.jpg",
+      "backgroundImage":"../assets/images/minecraft1.jpg",
       "actions": [
         {
           "label": "Demander son chemin",
-          "to": 50
+          "to": 56
         },
         {
           "label": "Demander où nous sommes",
@@ -198,11 +276,11 @@
     {
       "id": 13,
       "title": "Vous êtes dans la grotte d'Emra et elle renferme un trésor.",
-      "backgroundImage":"../assets/images/minecraft3.jpg",
+      "backgroundImage":"../assets/images/minecraft1.jpg",
       "actions": [
         {
           "label": "Demander son chemin",
-          "to": 50
+          "to": 56
         },
         {
           "label": "Demander qui sont-ils",
@@ -213,7 +291,7 @@
     {
       "id": 14,
       "title": "Vous êtes dans la grotte d'Emra et elle renferme un trésor.",
-      "backgroundImage":"../assets/images/minecraft3.jpg",
+      "backgroundImage":"../assets/images/minecraft1.jpg",
       "good": "true",
       "actions": [
         {
@@ -225,7 +303,7 @@
     {
       "id": 16,
       "title": "Je suis Bob et lui c'est Billy. ",
-      "backgroundImage":"../assets/images/minecraft3.jpg",
+      "backgroundImage":"../assets/images/minecraft1.jpg",
       "good": "false",
       "actions": [
         {
@@ -248,10 +326,11 @@
     {
       "id": 9,
       "title": "En arrivant dans la salle vous remarquez une table sur laquelle sont posées quelques cartes, quand soudain vous entendez un boulet gigantesque qui se rapproche de vous, que faites vous ?",
+      "backgroundImage":"../assets/images/minecraft7.jpg",      
       "actions": [
         {
           "label": "Se mettre a gauche",
-          "to": 50
+          "to": 51
         },
         {
           "label": "Se mettre a droite ",
@@ -262,6 +341,7 @@
     {
       "id": 10,
       "title": "Vous avez réussi à esquiver le piège ! Des bruits de pas se font entendre au loin.",
+      "backgroundImage":"../assets/images/minecraft7.jpg",      
       "actions": [
         {
           "label": "Les suivre",
@@ -272,19 +352,19 @@
     {
       "id": 17,
       "title":"Vous vous rapprochez de l'énigme",
-      "backgroundImage":"../assets/images/minecraft6.jpg",
+      "backgroundImage":"../assets/images/minecraft11.jpg",
       "actions":[
         {
           "label": "A",
-          "to": 50
+          "to": 54
         },
         {
           "label": "B",
-          "to": 50
+          "to": 54
         },
         {
           "label": "C",
-          "to": 50
+          "to": 54
         },
         {
           "label": "D",
@@ -309,10 +389,11 @@
     {
       "id": 19,
       "title":"Vous vous retrouvez face à un homme et un cadavre criblé de flèches, vous en déduisez que le bruit suspect n'était autre que le piège qu'avait declenché la personne gisante au sol.",
+      "backgroundImage":"../assets/images/minecraft15.jpg",            
       "actions":[
         {
           "label":"Se battre",
-          "to": "50"
+          "to": "52"
         },
         {
           "label":"Parler",
@@ -323,14 +404,15 @@
     {
       "id": 20,
       "title": "Quoi ? Que voulez vous ?",
+      "backgroundImage":"../assets/images/minecraft15.jpg",            
       "actions": [
         {
           "label": "Se battre",
-          "to": 50
+          "to": 52
         },
         {
           "label": "Demander son chemin",
-          "to": 50
+          "to": 56
         },
         {
           "label": "Demander qui sont-ils",
@@ -345,10 +427,11 @@
     {
       "id": 21,
       "title": "Moi je suis Billy et lui c'est... c'etait Bob",
+      "backgroundImage":"../assets/images/minecraft15.jpg",            
       "actions": [
         {
           "label": "Demander son chemin",
-          "to": 50
+          "to": 56
         },
         {
           "label": "Demander où nous sommes",
@@ -359,24 +442,37 @@
     {
       "id": 22,
       "title": "Vous êtes dans la grotte d'Emra et elle renferme un trésor",
+      "backgroundImage":"../assets/images/minecraft15.jpg",            
       "actions": [
         {
           "label": "Demander son chemin",
-          "to": 50
+          "to": 56
         },
         {
           "label": "Demander qui ils sont",
-          "to": 24
+          "to": 180
         }
       ]
     },
     {
+      "id": 180,
+      "title": "Je suis Billy et ca c'etait Bob",
+      "backgroundImage":"../assets/images/minecraft15.jpg",            
+      "actions": [
+        {
+          "label": "Demander de l'accompagner",
+          "to": 55
+        }
+    ]}
+      ,
+    {
       "id": 23,
       "title": "Vous êtes dans la grotte d'Emra et elle renferme un trésor.",
+      "backgroundImage":"../assets/images/minecraft15.jpg",            
       "actions": [
         {
           "label": "Proposer de l'accompagner",
-          "to": 50
+          "to": 55
         }
       ]
     },
@@ -407,20 +503,20 @@
     {
       "id": 26,
       "title":"Vous arrivez face une porte scellée par une énigme.",
-      "backgroundImage":"../assets/images/minecraft6.jpg",
+      "backgroundImage":"../assets/images/minecraft11.jpg",
       "good":"true",
       "actions":[
         {
           "label": "A",
-          "to": 50
+          "to": 54
         },
         {
           "label": "B",
-          "to": 50
+          "to": 54
         },
         {
           "label": "C",
-          "to": 50
+          "to": 54
         },
         {
           "label": "D",
@@ -431,20 +527,20 @@
     {
       "id": 27,
       "title":"Vous vous rapprochez de l'énigme",
-      "backgroundImage":"../assets/images/minecraft6.jpg",
+      "backgroundImage":"../assets/images/minecraft11.jpg",
       "good":"false",
       "actions":[
         {
           "label": "A",
-          "to": 50
+          "to": 54
         },
         {
           "label": "B",
-          "to": 50
+          "to": 54
         },
         {
           "label": "C",
-          "to": 50
+          "to": 54
         },
         {
           "label": "D",
@@ -455,6 +551,7 @@
     {
       "id": 28,
       "title":"Vous avez résolu l'énigme, la porte s'ouvre et vous apercevez une gemme poser sur un socle",
+      "backgroundImage":"../assets/images/minecraft12.jpg",            
       "good":"true",
       "actions":[
         {
@@ -463,22 +560,23 @@
         },
         {
           "label":"Laisser vos compagnons y aller",
-          "to": "50"
+          "to": "57"
         }
       ]
     },
     {
       "id": 29,
       "title":"Vous avez résolu l'énigme, la porte s'ouvre et vous apercevez une gemme poser sur un socle",
+      "backgroundImage":"../assets/images/minecraft12.jpg",            
       "good":"false",
       "actions":[
         {
           "label":"Demander a la prendre",
-          "to": "50"
+          "to": "53"
         },
         {
           "label":"Laisser vos compagnons y aller",
-          "to": "50"
+          "to": "57"
         }
       ]
     }
